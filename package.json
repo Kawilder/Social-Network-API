@@ -1,6 +1,25 @@
+
 {
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ https://github.com/Kawilder/Social-Network-API"
+  },
+  "author": "Kevin Wilder",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Kawilder/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/Kawilder/Social-Network-API",
   "dependencies": {
-    "express": "^4.17.3",
-    "mongoose": "^6.2.9"
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7"
   }
 }
